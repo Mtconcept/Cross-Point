@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "674845056333",
+    "firebase_url": "https://cross-point-b16a8.firebaseio.com",
+    "project_id": "cross-point-b16a8",
+    "storage_bucket": "cross-point-b16a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674845056333:android:94ab71d115cb28e9f86b04",
+        "android_client_info": {
+          "package_name": "com.example.crosspoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674845056333-vmalqfhgm120musi3ij3sq536cbvb6jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAesmndE0X5eivEKXO_z_OLZ3Aqdm_qcgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674845056333-vmalqfhgm120musi3ij3sq536cbvb6jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

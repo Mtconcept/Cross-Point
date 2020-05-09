@@ -92,19 +92,18 @@ class _InsurancePlansState extends State<InsurancePlans> {
                   ),
                 ],
               )),
-
-          Positioned(
-              bottom: 30,
-              left: 70,
-              child: FlatButton(
-                  onPressed: () {
-                    Navigator.of(context).push(MaterialPageRoute(
-                        builder: (BuildContext context) => SignUp()));
-                  },
-                  child: Text(
-                    'I ALREADY HAVE A PLAN SKIP ',
-                    style: TextStyle(letterSpacing: 1, fontSize: 14),
-                  )))
+          Align(
+            alignment: Alignment.bottomCenter,
+            child:  FlatButton(
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (BuildContext context) => SignUp()));
+                },
+                child: Text(
+                  'I ALREADY HAVE A PLAN SKIP ',
+                  style: TextStyle(letterSpacing: 1, fontSize: 14),
+                )),
+          )
         ],
       ),
     );
@@ -117,6 +116,5 @@ class _InsurancePlansState extends State<InsurancePlans> {
   }
 
 }
-
 
 

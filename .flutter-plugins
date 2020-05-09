@@ -1,3 +1,8 @@
 # This is a generated file; do not edit or check into version control.
-path_provider=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\path_provider-1.6.7\\
-path_provider_macos=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+1\\
+cloud_firestore=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.13.5\\
+cloud_firestore_web=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-0.1.1+2\\
+firebase_auth=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_auth-0.16.0\\
+firebase_auth_web=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_auth_web-0.1.2\\
+firebase_core=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_core-0.4.4+3\\
+firebase_core_web=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.1.1+2\\
+libphonenumber=C:\\Users\\user\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\libphonenumber-1.0.1\\

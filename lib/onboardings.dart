@@ -1,3 +1,4 @@
+import 'package:crosspoint/constant.dart';
 import 'package:crosspoint/insurancePlans.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -65,8 +66,8 @@ class _OnboardState extends State<Onboard> {
                       'Get connected with your mobile phone\nin a matter of minutes and start enjoying \nendless rewards ',
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight: FontWeight.w500,
                         fontFamily: 'Gilroy',
+                        fontWeight: FontWeight.w500
                       ),
                     ),
                   )
@@ -88,7 +89,7 @@ class _OnboardState extends State<Onboard> {
                     child: Text(
                       'Insurance Perks',
                       style: TextStyle(
-                          color: Colors.black,
+                          color: textColor,
                           fontSize: 30,
                           fontWeight: FontWeight.bold),
                     ),
@@ -163,46 +164,3 @@ class _OnboardState extends State<Onboard> {
     }
   }
 }
-//
-//class Indicator extends StatelessWidget {
-//  final int positionIndex, currentIndex;
-//  const Indicator({this.currentIndex, this.positionIndex});
-//
-//  @override
-//  Widget build(BuildContext context) {
-//    return Container(
-//      width: 12,
-//      height: 12,
-//      decoration: BoxDecoration(
-//          border: Border.all(
-//            color: Color(0xff7D17AD),
-//          ),
-//          color: positionIndex == currentIndex
-//              ? Color(0xff7D17AD)
-//              : Colors.grey.withOpacity(0.2),
-//          shape: BoxShape.circle),
-//    );
-//  }
-//}
-//Positioned(
-//bottom: 60,
-//left: 150,
-//child: Row(
-//mainAxisAlignment: MainAxisAlignment.center,
-//mainAxisSize: MainAxisSize.max,
-//crossAxisAlignment: CrossAxisAlignment.center,
-//children: [
-//Indicator(
-//positionIndex: 1,
-//currentIndex: currentIndex,
-//),
-//SizedBox(
-//width: 10,
-//),
-//Indicator(
-//positionIndex: 2,
-//currentIndex: currentIndex,
-//),
-//],
-//),
-//),

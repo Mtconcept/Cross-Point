@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class InsuranceCard extends StatelessWidget {
-  String plan;
-  String plantitle;
-  Color cardColor;
-  String planRate;
+  final String plan;
+  final String plantitle;
+  final Color cardColor;
+  final String planRate;
 
   InsuranceCard({this.plan, this.planRate, this.plantitle, this.cardColor});
 
@@ -79,7 +79,7 @@ class InsuranceCard extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      height: 24,
+                      height: 18,
                     ),
                     Center(
                       child: InkWell(

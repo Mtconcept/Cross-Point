@@ -9,11 +9,9 @@ void main() {
 class CrossPoint extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Color pColor = Color(0xff7D17AD);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: pColor,
         fontFamily: 'Gilroy'
       ),
       home: SplashScreen(),
